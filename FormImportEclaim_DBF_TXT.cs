@@ -68,7 +68,7 @@ registerManager.IsWaitClose = true;						// mai: to pause RegisterManager-Import
 				if (!isByPassConfirmClosingDialog)		// mai: check if Bypass this ConfirmClosingDialog when finished all jobs.
 				{
 					// mai: ask user to confirm for closing this form, in this case if user click on btn-NO to NOT-Closing this form.
-					DialogResult dialogResult = FormMyMessageBox.Show("ท่านต้องการยกเลิกการนำเข้าข้อมูลใช่หรือไม่", MyConst.APP_NAME, MessageBoxButtons.YesNo);	// mai	// OK
+					DialogResult dialogResult = FormMyMessageBox.Show("ท่านต้องการยกเลิกการนำเข้าข้อมูลใช่หรือไม่", MyConst.APP_NAME, MessageBoxButtons.YesNo);	// mai	// OK // OK
 					if (dialogResult == DialogResult.No)    // mai	// WK
 					{
 						e.Cancel = true;	// mai: Cancel the Closing-Event from closing the form.
