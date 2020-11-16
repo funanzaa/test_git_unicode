@@ -13,7 +13,7 @@
 # git's files (which MUST be ASCII)
 .gitattributes   git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
 .gitignore       git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
-.cs       git-encoding=utf-8 zos-working-tree-encoding=utf-8
+
 # Binary files, selected by file extension.
 #
 # Note that "Binary" really just means "Not touched when moved
@@ -25,8 +25,8 @@
 #
 # While it would make sense to have BINARY be BINARY on all platforms,
 # Other platforms don't use the BINARY term, But do recognize "binary" macro
+*.cs    git-encoding=UTF-8 	   zos-working-tree-encoding=UTF-8
 *.jpg   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
-*.cs    git-encoding=UTF-8    zos-working-tree-encoding=UTF-8 utf-8
 *.crx   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
 *.eot   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
 *.fdt   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
