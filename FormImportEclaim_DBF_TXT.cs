@@ -28,7 +28,7 @@ namespace OPBKKClaim
 		public bool IsImporting { get; set; } = false;	// mai: init with "false"	// mai: OK
 
 		//=================================
-        private RegisterManager registerManager = null; // mai: init with "null"	// mai: OK
+        private RegisterManager registerManager = null; // mai: init with "null"	// mai: OK OK
 
 		//=================================
 		private int fileTypes { get; set; } = Import_Const.FileTypes.NULL;	// mai: init with "Import_Const.FileTypes.NULL"	// mai: OK

@@ -26,7 +26,7 @@
 # While it would make sense to have BINARY be BINARY on all platforms,
 # Other platforms don't use the BINARY term, But do recognize "binary" macro
 *.jpg   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
-*.cs    git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
+*.cs    git-encoding=UTF-8    zos-working-tree-encoding=UTF-8 utf-8
 *.crx   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
 *.eot   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
 *.fdt   git-encoding=BINARY    zos-working-tree-encoding=BINARY binary
