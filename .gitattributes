@@ -13,6 +13,7 @@
 # git's files (which MUST be ASCII)
 .gitattributes   git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
 .gitignore       git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+.cs       git-encoding=utf-8 zos-working-tree-encoding=utf-8
 # Binary files, selected by file extension.
 #
 # Note that "Binary" really just means "Not touched when moved
