@@ -31,7 +31,7 @@ namespace OPBKKClaim
         private RegisterManager registerManager = null; // mai: init with "null"	// mai: OK
 
 		//=================================
-		private int fileTypes { get; set; } = Import_Const.FileTypes.NULL;	// mai: init with "Import_Const.FileTypes.NULL"	// mai: OK
+		private int fileTypes { get; set; } = Import_Const.FileTypes.NULL;	// mai: init with "Import_Const.FileTypes.NULL"	// mai: OK // OK
 
 		//=================================
 		private bool isByPassConfirmClosingDialog = false; // mai: init with "false"	// mai: OK
